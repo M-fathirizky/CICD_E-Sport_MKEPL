@@ -26,7 +26,7 @@ Arsitektur pipeline mencakup komponen berikut:
 |------|------|------------------------------------|
 | Muhammad Fathir Rizky Salam | 103022300009 | Continuous Integration: GitHub Actions workflow, build Maven, konfigurasi project |
 | Haidar Zahran Haryono | 103022330140 | Continue Testing: unit tests, `mvn test`, validasi fitur aplikasi |
-| Hafizryandin Haykal Matondang | 103022300153 | Continue Inspection: static code analysis, quality gate, code review support |
+| Hafizryandin Haykal Matondang | 103022300158 | Continue Inspection: static code analysis, quality gate, code review support |
 | Hafizh Naufal Pradana | 103022300163 | Continuous Deployment: deployment pipeline, release artifact, GitHub Actions deploy |
 
 ## 4. Tools dan Teknologi yang Digunakan
