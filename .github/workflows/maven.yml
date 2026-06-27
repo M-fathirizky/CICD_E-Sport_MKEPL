@@ -38,6 +38,7 @@ jobs:
         run: mvn -B dependency:go-offline --file pom.xml
 
       # ── Build, Test & Continuous Inspection ──
+      
       - name: Build and Analyze with Sonar
         env:
           GITHUB_TOKEN: ${{ secrets.ESPORT_GITHUB_TOKEN }}
