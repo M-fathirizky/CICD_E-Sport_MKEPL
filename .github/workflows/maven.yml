@@ -44,8 +44,8 @@ jobs:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
         run: >
           mvn -B verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar 
-          -Dsonar.projectKey=fizryan_mkpl-inspection
-          -Dsonar.organization=fizryan 
+          -Dsonar.projectKey=
+          -Dsonar.organization=
           -Dsonar.host.url=https://sonarcloud.io 
           --file pom.xml
 
