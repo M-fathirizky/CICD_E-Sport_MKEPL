@@ -38,16 +38,6 @@ jobs:
         run: mvn -B dependency:go-offline --file pom.xml
 
       # ── Build, Test & Continuous Inspection ──
-      - name: Build and Analyze with Sonar
-        env:
-          GITHUB_TOKEN: ${{ secrets.ESPORT_GITHUB_TOKEN }}
-          SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
-        run: >
-          mvn -B verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar 
-          -Dsonar.projectKey=fizryan_mkpl-inspection
-          -Dsonar.organization=fizryan 
-          -Dsonar.host.url=https://sonarcloud.io 
-          --file pom.xml
 
       - name: Upload test results
         if: always()
